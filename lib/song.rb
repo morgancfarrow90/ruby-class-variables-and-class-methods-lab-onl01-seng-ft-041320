@@ -15,6 +15,8 @@ attr_accessor = :name, :artist, :genre
     @@artists << artist
   end 
   
+  def 
+  
   def self.count
     @@count
   end
