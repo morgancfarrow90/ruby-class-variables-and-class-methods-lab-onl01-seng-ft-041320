@@ -6,11 +6,11 @@ attr_accessor = :name, :artist, :genre
 @@genres = []
 @@artists = []
   
-  def initialize(name)
+  def initialize(name, genre, artist)
     @name = name
     @@count += 1 
-    @@genres << self 
-    @@artists << self
+    @@genres << genre 
+    @@artists << artist
   end 
   
   def self.count
