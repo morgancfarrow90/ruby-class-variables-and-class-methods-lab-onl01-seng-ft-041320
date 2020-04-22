@@ -16,5 +16,6 @@ attr_accessor = :name, :artist, :genre
   end
   
   def self.genres 
-    @genre
+    if @@genre.include?(@genre) == false 
+    @@genre[@genre] = [] 
 end 
