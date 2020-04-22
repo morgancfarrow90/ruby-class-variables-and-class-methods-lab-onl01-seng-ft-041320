@@ -23,4 +23,9 @@ attr_accessor = :name, :artist, :genre
     @@genre[@genre] << name
   end 
   
+  def self.artists
+    if @@artists.include?(artist) == false 
+      @@artists[@artist] = []
+      @@artists[@artist] << name
+  
 end 
