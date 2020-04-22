@@ -22,6 +22,16 @@ attr_accessor = :name, :artist, :genre
   def name
     @name
   end
+  
+  def artist=(artist)
+    @artist = artist
+  end
+  
+  def artist
+    @artist
+  end 
+  
+  
     
   
   def self.count
