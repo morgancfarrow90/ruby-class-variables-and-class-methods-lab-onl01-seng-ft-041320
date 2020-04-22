@@ -19,20 +19,12 @@ attr_accessor = :name, :artist, :genre
     @@count
   end
   
-  def self.genres 
-    if @@genre.include?(@genre) == false 
-    @@genre[@genre] = [] 
-    @@genre[@genre] << name
+  def self.genres
+    @@genres.uniq!
   end
-  end 
-  
+
   def self.artists
-    if @@artists.include?(artist) == false 
-      @@artists[@artist] = []
-      @@artists[@artist] << name
-    end
-    end 
-    
- 
-  
+    @@artists.uniq!
+  end
+   
 end 
