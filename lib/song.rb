@@ -21,12 +21,14 @@ attr_accessor = :name, :artist, :genre
     if @@genre.include?(@genre) == false 
     @@genre[@genre] = [] 
     @@genre[@genre] << name
+  end
   end 
   
   def self.artists
     if @@artists.include?(artist) == false 
       @@artists[@artist] = []
       @@artists[@artist] << name
+    end
     end 
     
  
