@@ -4,6 +4,7 @@ attr_accessor = :name, :artist, :genre
 
 @@count = 0 
 @@genres = []
+@@artists = []
   
   def initialize(name)
     @name = name
@@ -18,4 +19,6 @@ attr_accessor = :name, :artist, :genre
   def self.genres 
     if @@genre.include?(@genre) == false 
     @@genre[@genre] = [] 
+  end 
+  
 end 
