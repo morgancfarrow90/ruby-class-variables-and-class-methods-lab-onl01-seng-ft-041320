@@ -75,6 +75,3 @@ attr_accessor = :name, :artist, :genre
     artist_count
   end
 end
-
-   
-end 
