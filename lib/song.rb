@@ -38,7 +38,6 @@ attr_accessor = :name, :artist, :genre
   def genre
     @genre
   end
-    
   
   def self.count
     @@count
